@@ -3,15 +3,24 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
-    width: 120%;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .recipe{
     font-size: 24px;
 }
 h1{
     font-size: 64px;
-    animation-name: example;
-    animation-duration: 4s;
+    scale: 100%;
+    opacity: 1;
+    transition: scale, opacity 230ms ease-in-out;
+}
+h1:hover{
+    scale: 120%;
+    opacity: 0.8;
 }
 img{
     border-style: dashed;
