@@ -1,0 +1,27 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 120%;
+}
+.recipe{
+    font-size: 24px;
+}
+h1{
+    font-size: 64px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+img{
+    border-style: dashed;
+    border-radius: 25px;
+    border-width: 4px;
+    border-color: hsla(0, 0%, 0%, 0.50);
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: navy;
+}
