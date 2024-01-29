@@ -15,19 +15,18 @@ section{
 .animation{
     scale: 100%;
     opacity: 1;
-    transition: scale, opacity 230ms ease-in-out;
+    transition: scale, opacity 2s ease-in-out;
 }
 h1{
     font-size: 64px;
 }
 a:link{
     color: black;
-    scale: 100%;
 }
 a:visited{
     color: navy;
 }
-h1:hover a:link:hover{
+.animation:hover{
     scale: 120%;
     opacity: 0.8;
 }
